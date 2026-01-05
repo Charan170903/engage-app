@@ -22,7 +22,7 @@ const Home = () => {
     <div className="homeScreen">
       <div className="contentWrapper">
         <h1 className="brandText">Engage</h1>
-        <p className="tagline">Track yourself</p>
+        <p className="tagline">Track yourself - track your goals and improve</p>
 
 
         <div className="emailRow">
@@ -52,7 +52,7 @@ const Home = () => {
           </div>
         )}
 
-        {/* Signup */}
+    
         {step === "signup" && (
           <div className="authBlock">
             <input
